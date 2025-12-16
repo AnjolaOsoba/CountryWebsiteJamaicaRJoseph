@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+}
+
+header {
+    background-color: #2b7a0b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero {
+    background-color: #138808;
+}
+
+nav {
+    background-color: #0f5c2e;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #dcdcdc;
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2b7a0b;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1d5207;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.page-img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #0f5c2e; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 3px solid #2b7a0b;
+}
